@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Artwork</string>
+
+
+    <!-- Vincent van Gogh -->
+
+    <string name="art_1_artist">Vincent Van Gogh</string>
+    <string name="art_1_artist_info">(Dutch, 1853 - 1890)</string>
+    <string name="art_1_title">The Starry Night</string>
+    <string name="art_1_year">1889</string>
+    <string name="art_1_description">The Starry Night by Vinvent van Gogh</string>
+    <string name="art_1_artist_bio">
+        Vincent Willem van Gogh was a Dutch post-impressionist painter who posthumously became one of the most famous and influential figures in the history of Western art.
+
+    Born into an upper-middle-class family, Van Gogh drew as a child and was serious, quiet, and thoughtful. As a young man he worked as an art dealer, often travelling, but became depressed after he was transferred to London.
+
+    Van Gogh suffered from psychotic episodes and delusions and though he worried about his mental stability, he often neglected his physical health, did not eat properly and drank heavily.
+
+    Van Gogh was unsuccessful during his lifetime, and he was considered a madman and a failure. </string>
+
+
+
+    <!-- Another Artist -->
+
+
+
+
+</resources>
