@@ -1,28 +1,77 @@
 <resources>
     <string name="app_name">Artwork</string>
 
-
     <!-- Vincent van Gogh -->
-
     <string name="art_1_artist">Vincent Van Gogh</string>
     <string name="art_1_artist_info">(Dutch, 1853 - 1890)</string>
     <string name="art_1_title">The Starry Night</string>
     <string name="art_1_year">1889</string>
-    <string name="art_1_description">The Starry Night by Vinvent van Gogh</string>
+    <string name="art_1_description">The Starry Night by Vincent van Gogh</string>
     <string name="art_1_artist_bio">
         Vincent Willem van Gogh was a Dutch post-impressionist painter who posthumously became one of the most famous and influential figures in the history of Western art.
 
-    Born into an upper-middle-class family, Van Gogh drew as a child and was serious, quiet, and thoughtful. As a young man he worked as an art dealer, often travelling, but became depressed after he was transferred to London.
+        Born into an upper-middle-class family, Van Gogh drew as a child and was serious, quiet, and thoughtful. As a young man, he worked as an art dealer, often travelling, but became depressed after he was transferred to London.
 
-    Van Gogh suffered from psychotic episodes and delusions and though he worried about his mental stability, he often neglected his physical health, did not eat properly and drank heavily.
+        Van Gogh suffered from psychotic episodes and delusions, and though he worried about his mental stability, he often neglected his physical health, did not eat properly, and drank heavily.
 
-    Van Gogh was unsuccessful during his lifetime, and he was considered a madman and a failure. </string>
+        Van Gogh was unsuccessful during his lifetime, and he was considered a madman and a failure.
+    </string>
 
+    <!-- Utagawa Kunisada -->
+    <string name="art_2_artist">Utagawa Kunisada (Toyokuni III)</string>
+    <string name="art_2_artist_info">(Japanese, 1786 – 1865)</string>
+    <string name="art_2_title">Actor Ichimura Buzaemon</string>
+    <string name="art_2_year">19th century</string>
+    <string name="art_2_description">Actor Ichimura Buzaemon by Utagawa Kunisada</string>
+    <string name="art_2_artist_bio">
+        Utagawa Kunisada, also known as Utagawa Toyokuni III (三代 歌川 豊国 Sandai Utagawa Toyokuni), was the most popular, prolific, and commercially successful designer of ukiyo-e woodblock prints in 19th-century Japan. In his own time, his reputation far exceeded that of his contemporaries, Hokusai, Hiroshige, and Kuniyoshi.
 
+        At the end of the Edo period (1603–1867), Hiroshige, Kuniyoshi, and Kunisada were the three best representatives of the Japanese color woodcut in Edo (capital city of Japan, now Tokyo).
 
-    <!-- Another Artist -->
+        Beginning in the 1930s and 1970s, respectively, the works of Hiroshige and Kuniyoshi were submitted to a re-evaluation, and these two are now counted among the masters of their art.
+    </string>
 
+    <!-- Edvard Munch -->
+    <string name="art_3_artist">Edvard Munch</string>
+    <string name="art_3_artist_info">(Norwegian, 1863 - 1944)</string>
+    <string name="art_3_title">Liggende akt</string>
+    <string name="art_3_year">1919</string>
+    <string name="art_3_description">Liggende akt by Edvard Munch</string>
+    <string name="art_3_artist_bio">
+        Edvard Munch was a Norwegian painter. His best known work, The Scream, has become one of the iconic images of world art.
 
+        His childhood was overshadowed by illness, bereavement, and the dread of inheriting a mental condition that ran in the family. Studying at the Royal School of Art and Design in Kristiania (today\'s Oslo), Munch began to live a bohemian life under the influence of the nihilist Hans Jæger, who urged him to paint his own emotional and psychological state (\'soul painting\').
 
+        Travel brought new influences and outlets. In Paris, he learned much from Paul Gauguin, Vincent van Gogh, and Henri de Toulouse-Lautrec, especially their use of colour. In Berlin, he met the Swedish dramatist August Strindberg.
 
+        The Scream was conceived in Kristiania. According to Munch, he was out walking at sunset, when he \'heard the enormous, infinite scream of nature\'.
+    </string>
+
+    <!-- Albert Muller -->
+    <string name="art_4_artist">Albert Muller</string>
+    <string name="art_4_artist_info">(Swiss, 1897 - 1926)</string>
+    <string name="art_4_title">Rest Outdoors</string>
+    <string name="art_4_year">1921</string>
+    <string name="art_4_description">Rest Outdoors by Albert Müller</string>
+    <string name="art_4_artist_bio">
+        Albert Muller was a Swiss Expressionist painter, glass artist, draftsman, graphic artist, and sculptor.
+
+        Müller was born in Basel in 1897. In 1917, he graduated as a glass painter from the general business school in Basel. In 1919, he received his first exhibition in the Kunsthalle Basel. In 1920, he traveled to Italy and worked with Niklaus Stoecklin in San Gimignano.
+
+        In 1923, Müller became acquainted with the expressionist Ernst Ludwig Kirchner and his work. An intense artistic friendship arose.
+    </string>
+
+    <!-- John Gould -->
+    <string name="art_5_artist">John Gould</string>
+    <string name="art_5_artist_info">(English, 1804-1881)</string>
+    <string name="art_5_title">A monograph of the Trogonidae or family of trogons</string>
+    <string name="art_5_year">1835</string>
+    <string name="art_5_description">A monograph of the Trogonidae or family of trogons by John Gould</string>
+    <string name="art_5_artist_bio">
+        John Gould FRS was an English ornithologist. He published a number of monographs on birds, illustrated by plates produced by his wife, Elizabeth Gould, and several other artists, including Edward Lear, Henry Constantine Richter, Joseph Wolf, and William Matthew Hart. He has been considered the father of bird study in Australia, and the Gould League in Australia is named after him. His identification of the birds now nicknamed \"Darwin\'s finches\" played a role in the inception of Darwin\'s theory of evolution by natural selection.
+
+        Gould was born in Lyme Regis, the first son of a gardener. Both father and son probably had little education. The father obtained a position on an estate near Guildford, Surrey, and then in 1818 Gould Snr became foreman in the Royal Gardens of Windsor.
+
+        Gould\'s position brought him into contact with the country\'s leading naturalists. This meant that he was often the first to see new collections of birds given to the Zoological Society of London.
+    </string>
 </resources>
