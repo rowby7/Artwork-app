@@ -39,8 +39,15 @@ import com.example.artwork.model.Art
 import com.example.artwork.ui.theme.ArtworkTheme
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+//Rowby Villanueva
+//Android Project 1
+//Artwork app
+//03/24/25
 
 
 class MainActivity : ComponentActivity() {
@@ -51,7 +58,6 @@ class MainActivity : ComponentActivity() {
 
             val navController = rememberNavController()
             ArtworkTheme {
-
                 NavHost(
                     navController = navController, startDestination = Screen.Home.route + "/{id}"
                 ){
@@ -82,33 +88,58 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun HomePage(navController: NavHostController){
-
+fun HomePage(navController: NavHostController) {
     var current by remember {
         mutableIntStateOf(
-            navController.currentBackStackEntry?.arguments?.getInt(
-                "id"
-            ) ?: 0
+            navController.currentBackStackEntry?.arguments?.getInt("id") ?: 0
         )
     }
     val art = ArtworkRepository.artworks[current]
-    Text(text = stringResource(art.artistBioId))
-Column(modifier = Modifier
-    .fillMaxWidth(),
-    horizontalAlignment = Alignment.CenterHorizontally
-){
-    ArtWall(navController, art, current)
+    Box(     //Box for the layout
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(top = 100.dp)
+    ) {
 
-    ArtDescriptor(art)
-    ArtNavigation(current){
-        current = if (it !in 0..<ArtworkRepository.artworks.size) 0 else it
+
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .verticalScroll(rememberScrollState()),  //make a page scrollable
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
+            ArtWall(
+                navController = navController,
+                art = art,
+                current = current,
+                modifier = Modifier.padding(16.dp)
+            )
+
+
+            ArtDescriptor(
+                art = art,
+                modifier = Modifier.padding(16.dp) // Add spacing around descriptor
+            )
         }
 
+
+        ArtNavigation(
+            current = current,
+            move = { index ->
+                current = if (index !in 0 until ArtworkRepository.artworks.size) 0 else index
+            },
+            modifier = Modifier
+                .align(Alignment.BottomCenter) // Align the button to bottom center
+                .padding(16.dp)
+        )
     }
 }
 
+
+
 @Composable
-fun ArtWall(navController: NavHostController, art: Art, current: Int){
+fun ArtWall(navController: NavHostController, art: Art, current: Int, modifier: Modifier = Modifier){
 Column (
     modifier = Modifier
         .fillMaxWidth(),
@@ -117,50 +148,62 @@ Column (
     Image(
         painter = painterResource(art.artworkImageId),
         contentDescription = stringResource(art.titleId),
-        modifier = Modifier.clickable{
+        modifier = Modifier
+            .size(300.dp)
+            .clickable{ //makes the image clickable
                 navController.navigate(Screen.Artist.route + "/$current")
         })
     
-    Text(text = stringResource(art.artistId))
+
     }
 }
 
 @Composable
-fun ArtDescriptor(art: Art) {
+fun ArtDescriptor(art: Art, modifier: Modifier = Modifier) {
+Column(
+    horizontalAlignment = Alignment.CenterHorizontally
+) {
 
-}
+    Text(text = stringResource(art.artistId),
+        fontWeight = FontWeight.Bold)
+    Row (
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
+    ){
+    Text(text = stringResource(art.titleId))
+    Text(text = stringResource(art.yearId))
+            }
+        }
+    }
 
 
 
 @Composable
-fun ArtNavigation(current: Int, move: (Int) -> Unit){
+fun ArtNavigation(current: Int, modifier: Modifier = Modifier, move: (Int) -> Unit) {
     Box(
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp),
         contentAlignment = Alignment.BottomCenter
     ) {
-        Row (
+        Row(
             horizontalArrangement = Arrangement.spacedBy(16.dp)
-        ){
+        ) {
             Button(
-                onClick = {
-                    move(current - 1)
-                }
+                onClick = { move(current - 1) },
+                enabled = current > 0
             ) {
                 Text(text = "Back")
             }
             Button(
-                onClick = {
-                    move(current + 1)
-                }
+                onClick = { move(current + 1) },
+                enabled = current < ArtworkRepository.artworks.size - 1
             ) {
-                Text(text = "Go")
+                Text(text = "Next")
             }
         }
     }
-
 }
+
 
 @Composable
 fun ArtistPage(navController: NavHostController) {
@@ -169,47 +212,43 @@ fun ArtistPage(navController: NavHostController) {
 
     Column(
         modifier = Modifier
-            .fillMaxSize(),
-
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(20.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Row(
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
                 .padding(top = 100.dp, bottom = 25.dp)
         ) {
-        // Artist Image
-        Image(
-            painter = painterResource(art.artistImageId),
-            contentDescription = stringResource(art.artistId),
-            modifier = Modifier
-                .size(120.dp) // Set the size of the image
-                .clip(CircleShape)
-                .padding(bottom = 16.dp) // Add spacing below the image
-        )
-        Column() {
-            //Artist Name
-            Text(
-                text = stringResource(art.artistId),
-                modifier = Modifier.padding(bottom = 8.dp) // Space below the name
+            Image(
+                painter = painterResource(art.artistImageId),
+                contentDescription = stringResource(art.artistId),
+                modifier = Modifier
+                    .size(110.dp)
+                    .clip(CircleShape)
+                    .padding(bottom = 16.dp),
+                contentScale = ContentScale.Crop
             )
-
-            // Artist Info (Lifespan and Nationality)
-            Text(
-                text = stringResource(art.artistInfoId),
-                modifier = Modifier.padding(bottom = 16.dp) // Space below the info
-            )
+            Column {
+                Text(
+                    text = stringResource(art.artistId),
+                    modifier = Modifier.padding(bottom = 8.dp)
+                )
+                Text(
+                    text = stringResource(art.artistInfoId),
+                    modifier = Modifier.padding(bottom = 16.dp)
+                )
+            }
         }
-    }
 
-        // Artist Bio (Single Paragraph)
         Text(
             text = stringResource(art.artistBioId),
             modifier = Modifier
-                .weight(1f) // Push the Back button to the bottom by taking up remaining space
-                .padding(bottom = 16.dp) // Space below the bio
+                .padding(bottom = 16.dp)
         )
 
-        // Back Button
         Button(
             onClick = { navController.navigate(Screen.Home.route + "/$id") },
             modifier = Modifier.align(Alignment.CenterHorizontally)
@@ -220,17 +259,15 @@ fun ArtistPage(navController: NavHostController) {
 }
 
 
+
 @Composable
 fun ArtistProfile(art: Art){
-
-    // TODO: Artist Page Section A
 
         Text(text = stringResource(art.artistId))
 }
 
 @Composable
 fun ArtistBio(bioId: Int){
-
     Text(text = stringResource(id = bioId))
 }
 

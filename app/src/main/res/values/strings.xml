@@ -5,13 +5,13 @@
     <string name="art_1_artist">Vincent Van Gogh</string>
     <string name="art_1_artist_info">(Dutch, 1853 - 1890)</string>
     <string name="art_1_title">The Starry Night</string>
-    <string name="art_1_year">1889</string>
+    <string name="art_1_year">(1889)</string>
     <string name="art_1_description">The Starry Night by Vincent van Gogh</string>
     <string name="art_1_artist_bio">
-        Vincent Willem van Gogh was a Dutch post-impressionist painter who posthumously became one of the most famous and influential figures in the history of Western art.
+        Vincent Willem van Gogh was a Dutch post-impressionist painter who posthumously became one of the most famous and influential figures in the history of Western art. In a decade, he created about 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. He was not commercially successful, and his suicide at 37 came after years of mental illness, depression and poverty.\n\n
 
-        Born into an upper-middle-class family, Van Gogh drew as a child and was serious, quiet, and thoughtful. As a young man, he worked as an art dealer, often travelling, but became depressed after he was transferred to London.
 
+        Born into an upper-middle-class family, Van Gogh drew as a child and was serious, quiet, and thoughtful. As a young man he worked as an art dealer, often travelling, but became depressed after he was transferred to London. He turned to religion and spent time as a Protestant missionary in southern Belgium. He drifted in ill health and solitude before taking up painting in 1881, having moved back home with his parents. His younger brother Theo supported him financially, and the two kept a long correspondence by letter. His early works, mostly still lifes and depictions of peasant labourers, contain few signs of the vivid colour that distinguished his later work. In 1886, he moved to Paris, where he met members of the avant-garde, including Émile Bernard and Paul Gauguin, who were reacting against the Impressionist sensibility. As his work developed he created a new approach to still lifes and local landscapes. His paintings grew brighter in colour as he developed a style that became fully realised during his stay in Arles in the south of France in 1888. During this period he broadened his subject matter to include series of olive trees, wheat fields and sunflowers.\n\n
         Van Gogh suffered from psychotic episodes and delusions, and though he worried about his mental stability, he often neglected his physical health, did not eat properly, and drank heavily.
 
         Van Gogh was unsuccessful during his lifetime, and he was considered a madman and a failure.
@@ -21,37 +21,42 @@
     <string name="art_2_artist">Utagawa Kunisada (Toyokuni III)</string>
     <string name="art_2_artist_info">(Japanese, 1786 – 1865)</string>
     <string name="art_2_title">Actor Ichimura Buzaemon</string>
-    <string name="art_2_year">19th century</string>
+    <string name="art_2_year">(19th century)</string>
     <string name="art_2_description">Actor Ichimura Buzaemon by Utagawa Kunisada</string>
     <string name="art_2_artist_bio">
-        Utagawa Kunisada, also known as Utagawa Toyokuni III (三代 歌川 豊国 Sandai Utagawa Toyokuni), was the most popular, prolific, and commercially successful designer of ukiyo-e woodblock prints in 19th-century Japan. In his own time, his reputation far exceeded that of his contemporaries, Hokusai, Hiroshige, and Kuniyoshi.
 
-        At the end of the Edo period (1603–1867), Hiroshige, Kuniyoshi, and Kunisada were the three best representatives of the Japanese color woodcut in Edo (capital city of Japan, now Tokyo).
+        Utagawa Kunisada, also known as Utagawa Toyokuni III (三代 歌川 豊国 Sandai Utagawa Toyokuni), was the most popular, prolific and commercially successful designer of ukiyo-e woodblock prints in 19th-century Japan. In his own time, his reputation far exceeded that of his contemporaries, Hokusai, Hiroshige and Kuniyoshi.\n\n
+
+        At the end of the Edo period (1603–1867), Hiroshige, Kuniyoshi and Kunisada were the three best representatives of the Japanese color woodcut in Edo (capital city of Japan, now Tokyo). However, among European and American collectors of Japanese prints, beginning in the late 19th and early 20th century, all three of these artists were actually regarded as rather inferior to the greats of classical ukiyo-e, and therefore as having contributed considerably to the downfall of their art. For this reason, some referred to their works as "decadent".\n\n
 
         Beginning in the 1930s and 1970s, respectively, the works of Hiroshige and Kuniyoshi were submitted to a re-evaluation, and these two are now counted among the masters of their art.
     </string>
+
 
     <!-- Edvard Munch -->
     <string name="art_3_artist">Edvard Munch</string>
     <string name="art_3_artist_info">(Norwegian, 1863 - 1944)</string>
     <string name="art_3_title">Liggende akt</string>
-    <string name="art_3_year">1919</string>
+    <string name="art_3_year">(1919)</string>
     <string name="art_3_description">Liggende akt by Edvard Munch</string>
     <string name="art_3_artist_bio">
-        Edvard Munch was a Norwegian painter. His best known work, The Scream, has become one of the iconic images of world art.
 
-        His childhood was overshadowed by illness, bereavement, and the dread of inheriting a mental condition that ran in the family. Studying at the Royal School of Art and Design in Kristiania (today\'s Oslo), Munch began to live a bohemian life under the influence of the nihilist Hans Jæger, who urged him to paint his own emotional and psychological state (\'soul painting\').
+        Edvard Munch was a Norwegian painter. His best known work, The Scream, has become one of the iconic images of world art.\n\n
 
-        Travel brought new influences and outlets. In Paris, he learned much from Paul Gauguin, Vincent van Gogh, and Henri de Toulouse-Lautrec, especially their use of colour. In Berlin, he met the Swedish dramatist August Strindberg.
+        His childhood was overshadowed by illness, bereavement and the dread of inheriting a mental condition that ran in the family. Studying at the Royal School of Art and Design in Kristiania (today\'s Oslo), Munch began to live a bohemian life under the influence of the nihilist Hans Jæger, who urged him to paint his own emotional and psychological state (\'soul painting\'). From this emerged his distinctive style.\n\n
 
-        The Scream was conceived in Kristiania. According to Munch, he was out walking at sunset, when he \'heard the enormous, infinite scream of nature\'.
+        Travel brought new influences and outlets. In Paris, he learned much from Paul Gauguin, Vincent van Gogh and Henri de Toulouse-Lautrec, especially their use of colour. In Berlin, he met the Swedish dramatist August Strindberg, whom he painted, as he embarked on his major canon The Frieze of Life, depicting a series of deeply-felt themes such as love, anxiety, jealousy and betrayal, steeped in atmosphere.\n\n
+
+        The Scream was conceived in Kristiania. According to Munch, he was out walking at sunset, when he \'heard the enormous, infinite scream of nature\'. The painting\'s agonised face is widely identified with the angst of the modern person. Between 1893 and 1910, he made two painted versions and two in pastels, as well as a number of prints.
+
     </string>
+
 
     <!-- Albert Muller -->
     <string name="art_4_artist">Albert Muller</string>
     <string name="art_4_artist_info">(Swiss, 1897 - 1926)</string>
     <string name="art_4_title">Rest Outdoors</string>
-    <string name="art_4_year">1921</string>
+    <string name="art_4_year">(1921)</string>
     <string name="art_4_description">Rest Outdoors by Albert Müller</string>
     <string name="art_4_artist_bio">
         Albert Muller was a Swiss Expressionist painter, glass artist, draftsman, graphic artist, and sculptor.
@@ -64,14 +69,16 @@
     <!-- John Gould -->
     <string name="art_5_artist">John Gould</string>
     <string name="art_5_artist_info">(English, 1804-1881)</string>
-    <string name="art_5_title">A monograph of the Trogonidae or family of trogons</string>
-    <string name="art_5_year">1835</string>
+    <string name="art_5_title">A monograph of the Trogonidae</string>
+    <string name="art_5_year">(1835)</string>
     <string name="art_5_description">A monograph of the Trogonidae or family of trogons by John Gould</string>
     <string name="art_5_artist_bio">
-        John Gould FRS was an English ornithologist. He published a number of monographs on birds, illustrated by plates produced by his wife, Elizabeth Gould, and several other artists, including Edward Lear, Henry Constantine Richter, Joseph Wolf, and William Matthew Hart. He has been considered the father of bird study in Australia, and the Gould League in Australia is named after him. His identification of the birds now nicknamed \"Darwin\'s finches\" played a role in the inception of Darwin\'s theory of evolution by natural selection.
+        John Gould FRS was an English ornithologist. He published a number of monographs on birds, illustrated by plates produced by his wife, Elizabeth Gould, and several other artists, including Edward Lear, Henry Constantine Richter, Joseph Wolf and William Matthew Hart. He has been considered the father of bird study in Australia and the Gould League in Australia is named after him. His identification of the birds now nicknamed "Darwin\'s finches" played a role in the inception of Darwin\'s theory of evolution by natural selection. Gould\'s work is referenced in Charles Darwin\'s book, On the Origin of Species.\n\n
 
-        Gould was born in Lyme Regis, the first son of a gardener. Both father and son probably had little education. The father obtained a position on an estate near Guildford, Surrey, and then in 1818 Gould Snr became foreman in the Royal Gardens of Windsor.
+        Gould was born in Lyme Regis, the first son of a gardener. Both father and son probably had little education. The father obtained a position on an estate near Guildford, Surrey, and then in 1818 Gould Snr became foreman in the Royal Gardens of Windsor. He was for some time under the care of J. T. Aiton, of the Royal Gardens of Windsor. The young Gould started training as a gardener, being employed under his father at Windsor from 1818 to 1824, and he was subsequently a gardener at Ripley Castle in Yorkshire. He became an expert in the art of taxidermy. In 1824 he set himself up in business in London as a taxidermist, and his skill helped him to become the first curator and preserver at the museum of the Zoological Society of London in 1827.\n\n
 
-        Gould\'s position brought him into contact with the country\'s leading naturalists. This meant that he was often the first to see new collections of birds given to the Zoological Society of London.
+Gould\'s position brought him into contact with the country\'s leading naturalists. This meant that he was often the first to see new collections of birds given to the Zoological Society of London. In 1830 a collection of birds arrived from the Himalayas, many not previously described. Gould published these birds in A Century of Birds from the Himalaya Mountains (1830–1832). The text was by Nicholas Aylward Vigors and the illustrations were drawn and lithographed by Gould\'s wife Elizabeth Coxen Gould. Most of Gould\'s work were rough sketches on paper from which other artists created the lithographic plates.\n\n
+
+This work was followed by four more in the next seven years, including Birds of Europe in five volumes. It was completed in 1837; Gould wrote the text, and his clerk, Edwin Prince, did the editing. The plates were drawn and lithographed by Elizabeth Coxen Gould. A few of the illustrations were made by Edward Lear as part of his Illustrations of the Family of Psittacidae in 1832. Lear, however, was in financial difficulty, and he sold the entire set of lithographs to Gould. The books were published in a very large size, imperial folio, with magnificent coloured plates. Eventually 41 of these volumes were published, with about 3000 plates. They appeared in parts at £3 3s. a number, subscribed for in advance, and in spite of the heavy expense of preparing the plates, Gould succeeded in making his ventures pay, realising a fortune. This was a busy period for Gould who also published Icones Avium in two parts containing 18 leaves of bird studies on 54 cm plates as a supplement to his previous works. No further monographs were published as in 1838 he and his wife moved to Australia to work on the Birds of Australia. Shortly after their return to England, his wife died in 1841. Elizabeth Gould completed 84 plates for Birds of Australia before her death.
     </string>
 </resources>
