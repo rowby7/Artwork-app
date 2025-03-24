@@ -23,25 +23,6 @@ Art Space is an Android application that showcases a curated collection of artwo
 
 This application was developed as a class project, requiring students to code alongside the instructor during in-class sessions and complete additional TODO sections independently. The project aims to enhance proficiency in Android development using Kotlin.
 
-## Project Requirements and Instructions
-
-- **Deadline**: 
-  - March 25, 2025, at 11:59 PM EDT. 
-  - Late submissions are **NOT** accepted under any circumstances.
-
-- **Submission Guidelines**:
-  1. Submit only the `MainActivity.kt` file containing your completed work.
-  2. Record a 2-3 minute video demonstrating the application running, showcasing functionality, and explaining the work.
-  3. Upload the video to YouTube and provide the link as a comment in your submission.
-  4. Submissions without a video link will not be graded.
-
-- **Grading Policy**:
-  - **100 points**: Fully functional program with all sections completed.
-  - **80 points**: At least four sections completed and working as designed.
-  - **50 points**: At least two sections completed and working as designed.
-  - **20 points**: Code does not meet any of the criteria above.
-
-## Breakdown of Application
 
 1. **Home Page**:
    - Section A: Core functionality for navigating the artwork collection.
